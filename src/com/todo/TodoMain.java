@@ -73,8 +73,7 @@ public class TodoMain {
 				break;
 				
 			case "comp":
-				int index = sc.nextInt();
-				TodoUtil.completeItem(l, index);
+				TodoUtil.completeItem(l);
 				break;
 				
 			case "ls_comp":

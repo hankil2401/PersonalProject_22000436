@@ -15,26 +15,34 @@ public class TodoUtil {
 	
 	public static void createItem(TodoList list) {
 		
-		String title, desc, category, due_date;
+		String title, desc, category, due_date, priority, rating;
+		int seasons;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("\n"
 				+ "<Add new Item to the list>\n"
 				+ "New Title:   ");
-		title = sc.next();
+		title = sc.nextLine();
 		if (list.isDuplicate(title)) {
 			System.out.println("The title is duplicated!!");
 			return;
 		}
 		System.out.print("Category:    ");
-		category = sc.next();
-		sc.nextLine();
+		category = sc.nextLine();
+		//sc.nextLine();
 		System.out.print("Description: ");
 		desc = sc.nextLine().trim();
+		System.out.print("Priority:    ");
+		priority = sc.nextLine().trim();
+		System.out.print("Rating:      ");
+		rating = sc.nextLine().trim();
+		System.out.print("Seasons:     ");
+		seasons = sc.nextInt();
+		sc.nextLine();
 		System.out.print("Due date:    ");
 		due_date = sc.next();
 		
-		TodoItem t = new TodoItem(title, desc, category, due_date);
+		TodoItem t = new TodoItem(title, desc, category, due_date, priority, rating, seasons);
 		if(list.addItem(t)>0)
 			System.out.println("New item added!");
 	}
@@ -44,43 +52,59 @@ public class TodoUtil {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("\n"
-				+ "<Delete Item from the list>\n"
-				+ "Removing Title's number: ");
-		int no = sc.nextInt();
-		if(l.deleteItem(no)>0)
-			System.out.println("The Item is removed!");
+			+ "<Delete Item from the list>\n"
+			+ "Removing Title's number: ");
+		while(sc.hasNextInt()) {
+			int no = sc.nextInt();
+			if(l.deleteItem(no)>0)
+				System.out.println("The Item no."+no+" is removed!");
+		}
 	}
 
 
 	public static void updateItem(TodoList l) {
 		
-		String new_title, new_desc, new_category, new_due_date;
+		String new_title, new_desc, new_category, new_due_date, new_priority, new_rating;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("\n"
 				+ "<Change Item in the list>\n"
 				+ "Old Title's number:   ");
 		int no = sc.nextInt();
+		sc.nextLine();
 
 		System.out.print("New Title:       ");
-		new_title = sc.next().trim();
+		new_title = sc.nextLine().trim();
 		System.out.print("New Category:    ");
-		new_category = sc.next();
-		sc.nextLine();
+		new_category = sc.nextLine().trim();
 		System.out.print("Description:     ");
 		new_desc = sc.nextLine().trim();
+		System.out.print("Priority:        ");
+		new_priority = sc.nextLine().trim();
+		System.out.print("Rating:          ");
+		new_rating = sc.nextLine().trim();
+		System.out.print("Seasons:         ");
+		int seasons = sc.nextInt();
+		sc.nextLine();
 		System.out.print("New due date:    ");
 		new_due_date = sc.next().trim();
 		
-		TodoItem t = new TodoItem(new_title, new_desc, new_category, new_due_date);
+		TodoItem t = new TodoItem(new_title, new_desc, new_category, new_due_date, new_priority, new_rating, seasons);
 		t.setId(no);
 		if(l.updateItem(t)>0)
 			System.out.println("The item is updated!");
 	}
 	
-	public static void completeItem(TodoList l, int index) {
-		if(l.completeItem(index)>0)
-			System.out.println("The item is completed!");
+	public static void completeItem(TodoList l) {
+		System.out.print("\n"
+				+ "<Complete Item from the list>\n"
+				+ "Title's number: ");
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNextInt()) {
+			int index = sc.nextInt();
+			if(l.completeItem(index)>0)
+				System.out.println("The item no."+index+" is completed!");
+		}
 	}
 
 	public static void listAll(TodoList l) {

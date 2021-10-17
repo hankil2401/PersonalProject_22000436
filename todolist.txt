@@ -1,10 +1,52 @@
-Sport##Jogging##Run 1 round aroung the campus##2021/09/30##2021/09/26 17:31:09##0
-Game##Genshin##Play daily missions##2021/09/28##2021/09/26 17:31:54##0
-Game##LOL##Play 1 game##2021/09/27##2021/09/26 17:32:14##0
-Sport##Tennis##Practice forehand stroke##2021/10/01##2021/09/26 17:33:41##0
-Movie##Inception##movie about dream inside of dream, psychological movie##2021/10/02##2021/09/26 17:34:37##0
-Assignment##EAP-Discussion##Read an article and give own opinions then discuss with group members##2021/09/26##2021/09/26 17:37:10##0
-Assignment##CVHW3##Computer Vision assignment about filtering and sharpening image##2021/09/29##2021/09/26 17:39:58##0
-Delivery##Creatine##ordered item from foreign for roommates##2021/09/28##2021/09/26 17:41:15##0
-Delivery##Mooncake##chinese and vietnamese mid-autumn (chuseok) food, ordering##2021/09/30##2021/09/26 17:44:11##0
-Movie##Ready-Player-One##movie about VR, where a VR world too popular that economics might change by it##2021/10/02##2021/09/26 17:45:40##0
+Game##Sword Art Online##Anime about a VR game where players are stuck in that death or alive game##2021/12/23##2021/09/26 17:31:09##***##*****##0
+Fantasy##Overlord##Anime about a VR game player being moved to other world but having overpower (a skeleton)##2015/09/29##2021/09/26 17:31:54##**##****##1
+Mecha##Gundam 00##A representative mecha anime and Gundam series anime (should watch if you are fan of mecha)##2008/03/29##2021/09/26 17:32:14##*##****##0
+Romance##Kimi no Iru Machi##A romance anime (source manga) where main character chase his love from his hometown to Tokyo##2013/09/28##2021/09/26 17:33:41##*##**##0
+Game##Bofuri##A VR based anime but slow life, story about a girl who is invited to VR game from her friend##2020/03/25##2021/09/26 17:34:37##***##*****##1
+Fantasy##Tensura##Anime about a man who has been reincarnated into a slime in another world##2019/03/19##2021/09/26 17:37:10##***##*****##1
+Military##Haifuri##To who that interested in sailing, this is recommended##2016/06/26##2021/09/26 17:39:58##***##*****##1
+Industry##Shirobako##This anime can be a introduce to japan anime industry##2015/03/26##2021/09/26 17:41:15##**##****##1
+Industry##Bakuman##This one introduce us to japan maga industry##2011/04/02##2021/09/26 17:44:11##*##***##1
+Music##Love Live##Representative of music anime, love live is a great franchise##2013/03/31##2021/09/26 17:45:40##**##*****##1
+Fantasy##Fullmetal Alchemist##Anime about siblings in the world of alchemist searching for the way to bring backs the brother body##2004/10/02##2021/10/17 14:51:21##*##***##1
+Fantasy##Attack on Titan##Anime about humans' survival against the giant titan who attack and eat human##2013/09/29##2021/10/17 14:53:15##**##****##0
+Sci-Fi##Steins;Gate##Anime about time machine (scientifically, not fantasy way)##2011/09/14##2021/10/17 15:59:09##*##***##0
+Romance##Clannad##Sad romance anime, recommend for those who seek for sad anime, although it is a bit old##2008/03/28##2021/10/17 16:00:54##**##***##1
+Mecha##Code Geass##anime about rebellion with a little supernatural power and a high IQ protagonist##2007/07/29##2021/10/17 16:02:13##**##****##1
+Sport##Kuroko no Basket##Anime about basketball (having high rating after Slam Dunk)##2012/09/22##2021/10/17 16:04:20##*##***##0
+Romance##Your Lie in April##Sad romance music anime where two musical character meet together and have their performance##2015/03/20##2021/10/17 16:05:41##**##****##0
+Drama##Natsume Yuujinchou##Anime where Natsune(main) making youkai(japanese folktale monster) friends##2008/09/30##2021/10/17 16:09:57##*##**##0
+Mystery##Death Note##Anime about death god and the note where whose name is written will die##2007/07/27##2021/10/17 16:14:34##*##***##1
+Fantasy##One Piece##Anime about pirates as main casts in seeking the treasure that the Great Pirate say when he are about to die##????/??/??##2021/10/17 16:17:17##*##***##0
+Mecha##Neon Genesis Evangelion##anime about robot battle (old one)##1996/03/27##2021/10/17 16:18:24##*##**##0
+Sport##Slam Dunk##old sport anime about basketball##1996/03/23##2021/10/17 16:19:13##*##**##0
+Comedy##One Punch Man##comedy anime about strongest man in the world but no one no him##2015/12/21##2021/10/17 16:20:33##*##***##1
+Comedy##Assassination Classroom##although it is comedy, seems like lots of watcher cried for the last scene##2015/06/20##2021/10/17 16:21:42##**##***##0
+Sci-Fi##Vivy: Fluorite Eye's Song##AI's techonology has been hugely developed and they decide to destroy mankind, and destiny of mankind brings to past age AI##2021/06/19##2021/10/17 16:23:48##***##*****##1
+Magic##Mahou Shoujo Madoka Magica##Although the title is Magical Girl, this is the dark side of it (I recommend to watch it :P)##2011/04/22##2021/10/17 16:32:23##**##****##1
+Magic##Mahou Shoujo Lyrical Nanoha##Despite of its name, the anime is more like a magical Sci-Fi##2004/12/26##2021/10/17 16:37:56##**##*****##1
+Comedy##Saiki Kusuo no Psy-nan##Protagonist is very OP, but he just want to enjoy daily life##2016/12/26##2021/10/17 17:55:21##*##***##0
+Comedy##Non Non Biyori##Daily life of four (maybe will increase) young girls in there countryside hometown##2013/12/24##2021/10/17 16:44:35##*##***##0
+Romance##Kaguya-sama: Love is War##two young teenagers love each other, but want the opponent to propose first##2019/03/30##2021/10/17 16:45:36##**##****##0
+Sci-Fi##Dr. Stone##the world where everyone turn into stone, protagonist somehow manage to turn normal and make a potion to turn people to normal##2019/12/13##2021/10/17 16:47:36##**##***##0
+Music##Hibike! Euphonium##Music Instrument anime and their competition##2015/07/01##2021/10/17 16:49:03##**##****##1
+Historical##Rurouni Kenshin##Samurai in Japan Meiji era##1998/09/08##2021/10/17 16:50:06##**##****##0
+Fantasy##No Game No Life##2 protagonists have been send to other world where everything is decided by game##2014/06/25##2021/10/17 16:51:43##**##****##1
+Fantasy##Magi##Magical and god and knowledge of Solomon##2013/03/31##2021/10/17 16:52:51##**##*****##1
+Romance##Oregairu##school rom-com anime##2013/06/28##2021/10/17 16:54:02##**##***##0
+Sci-Fi##Senki Zesshou Symphogear##girls battles against monster?(maybe) or alien or stuff to protect people##2012/03/30##2021/10/17 16:56:15##**##*****##1
+Mystery##Dororo##story about a boy born with no limbs, no nose, no eyes, no ears, no skins, but still alive##2019/06/24##2021/10/17 16:57:53##**##***##0
+Comedy##Working!!##A story of a family restaurant, but the staffs there each have a little bit weird characteristics##2010/06/27##2021/10/17 17:05:23##**##****##1
+Music##K-On!##a group of high school girls making a light music (karui ongaku - K-On) club in school.##2009/06/26##2021/10/17 17:07:04##**##****##1
+Magic##Cardcaptor Sakura##a type of Magical Girl anime but this time, the power of protagonist is from cards##2000/03/21##2021/10/17 17:08:17##*##***##1
+Comedy##Katekyo Hitman Reborn!##Mafia and the battles and with some supernatural abilities##2010/09/25##2021/10/17 17:09:16##*##****##1
+Mystery##Hyouka##group of students gather in literature club and seeking and making their magazine##2012/09/17##2021/10/17 17:12:11##**##****##0
+Supernatural##Angel Beats!##Students who are dead gathered to a school, and once they fulfilled, they will disappear, but some of them don't want to be disappear##2010/06/26##2021/10/17 17:13:29##*##****##0
+Game##Hikaru no Go##a ghost who was a Go player, and a student who doesn't know anything about it##2003/03/26##2021/10/17 17:15:14##*##****##1
+Mystery##Gosick##some detective styles anime##2011/07/02##2021/10/17 17:16:42##*##****##1
+Music##BanG Dream!##Girls create bands and performs their song, competing other bands (good music)##2017/04/22##2021/10/17 17:17:47##**##****##1
+Historical##Yona of the Dawn##A princess who lost her father, betrayed by the one she love, now finding the legendary warriors##2015/03/24##2021/10/17 17:19:12##**##****##1
+Mystery##Danganronpa##group of random people being gathered and made to play some survival game##2013/09/27##2021/10/17 17:44:19##*##***##0
+Historical##Juuni Kokuki##A historical story about 12 countries##2003/08/30##2021/10/17 17:47:32##*##**##0
+Romance##Kaichou wa Maid-sama!##romance story of the the Student Council President and another students, where their roles somehow opposite in the shop##2010/09/24##2021/10/17 17:49:42##**##****##1
+Mystery##Terror in Resonance##Kids from scientific lab escape in the past, and now they want to revenge those scientist and politics behind it##2014/09/26##2021/10/17 17:11:13##*##***##1

@@ -9,6 +9,9 @@ public class TodoItem {
     private String current_date;
     private String category;
     private String due_date;
+    private String priority;
+    private String rating;
+    private int seasons;
     private int id;
     private int is_completed;
 
@@ -21,22 +24,38 @@ public class TodoItem {
         this.category=category;
         this.due_date=due_date;
     }
-    public TodoItem(String title, String desc, String date, String category, String due_date){
+    public TodoItem(String title, String desc, String category, String due_date, String priority, String rating, int seasons){
+        this.title=title;
+        this.desc=desc;
+        SimpleDateFormat f = new SimpleDateFormat("yyyy/MM/dd kk:mm:ss");
+        this.current_date=f.format(new Date());
+        this.category=category;
+        this.due_date=due_date;
+        this.priority=priority;
+        this.rating=rating;
+        this.seasons=seasons;
+    }
+    public TodoItem(String title, String desc, String date, String category, String due_date, int seasons){
         this.title=title;
         this.desc=desc;
         this.current_date=date;
         this.category=category;
         this.due_date=due_date;
+        this.seasons=seasons;
     }
-    public TodoItem(int id, String title, String desc, String date, String category, String due_date){
+    public TodoItem(int id, String title, String desc, String date, String category, String due_date, String priority, String rating, int seasons){
     	this.id=id;
         this.title=title;
         this.desc=desc;
         this.current_date=date;
         this.category=category;
         this.due_date=due_date;
+        this.priority=priority;
+        this.rating=rating;
+        this.seasons=seasons;
     }
-    public TodoItem(int id, String title, String desc, String date, String category, String due_date, int is_completed){
+    public TodoItem(int id, String title, String desc, String date, String category, 
+    		String due_date, int is_completed, String priority, String rating, int seasons){
     	this.id=id;
         this.title=title;
         this.desc=desc;
@@ -44,10 +63,13 @@ public class TodoItem {
         this.category=category;
         this.due_date=due_date;
         this.is_completed = is_completed;
+        this.priority = priority;
+        this.rating = rating;
+        this.seasons=seasons;
     }
     
     public String toSaveString() {
-    	return category + "##" + title + "##" + desc + "##" + due_date + "##" + current_date + "##" + is_completed+"\n";
+    	return category + "##" + title + "##" + desc + "##" + due_date + "##" + current_date + "##" + priority + "##" + rating + "##" + is_completed+"\n";
     }
     
     public String getTitle() {
@@ -100,9 +122,27 @@ public class TodoItem {
 	}
 	@Override
 	public String toString() {
-		return id + " " + "[" + category + "] " + title + " - " + desc + " - " + due_date + " - " + current_date;
+		return id + " " + "[" + category + "] " + title + " - " + desc + " - " + seasons + " - " + priority + " - " + rating  + " - " + due_date + " - " + current_date;
 	}
 	public String toString1() {
-		return id + " " + "[" + category + "] " + title + "[V]" + " - " + desc + " - " + due_date + " - " + current_date;
+		return id + " " + "[" + category + "] " + title + "[V]" + " - " + desc + " - " + seasons + " - " + priority + " - " + rating  + " - " + due_date + " - " + current_date;
+	}
+	public String getPriority() {
+		return priority;
+	}
+	public void setPriority(String priority) {
+		this.priority = priority;
+	}
+	public String getRating() {
+		return rating;
+	}
+	public void setRating(String rating) {
+		this.rating = rating;
+	}
+	public int getSeasons() {
+		return seasons;
+	}
+	public void setSeasons(int seasons) {
+		this.seasons = seasons;
 	}
 }
